@@ -8,16 +8,16 @@ const UserSchema = new mongoose.Schema(
       unique: true,
     },
     email: {
-      type: Sting,
+      type: String,
       required: true,
       unique: true,
     },
     password: {
-      type: Sting,
+      type: String,
       required: true,
     },
     profilePic: {
-      type: Sting,
+      type: String,
       default: '',
     },
   },
